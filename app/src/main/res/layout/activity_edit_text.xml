@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditTextActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="20dp"
+        android:drawableTint="@color/colorPrimary"
+        android:hint="Username"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="20dp"
+        android:drawableTint="@android:color/black"
+        android:hint="Password"
+        android:textColorHint="#00ff04"/>
+
+</LinearLayout>
